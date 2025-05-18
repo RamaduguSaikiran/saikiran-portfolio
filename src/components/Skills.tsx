@@ -74,8 +74,8 @@ const Skills = () => {
   }, []);
 
   const technicalSkills: SkillData[] = [
-    { name: 'Java', level: 'Advanced' },
-    { name: 'Python', level: 'Advanced' },
+    { name: 'Java', level: 'Intermediate' },
+    { name: 'Python', level: 'Intermediate' },
     { name: 'SQL/MySQL', level: 'Intermediate' },
     { name: 'HTML/CSS', level: 'Advanced' },
     { name: 'JavaScript', level: 'Intermediate' },
