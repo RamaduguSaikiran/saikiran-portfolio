@@ -42,7 +42,7 @@ const Projects = () => {
       title: 'Crop Disease Detection',
       description: 'Deep‑learning model integrated in a web app for identifying crop diseases, supports image uploads and audio feedback.',
       technologies: ['TensorFlow/Keras', 'Python', 'Web Development', 'Machine Learning'],
-      image: 'https://bitrefine.group/images/780x520/leaf_desease_780x520.jpg',
+      image: 'https://i.postimg.cc/bJ0KXLVz/premium-photo-1678655636569-b2786b3c9ac3.jpg',
       detailedDescription: 'A comprehensive crop disease detection application built with TensorFlow and Keras. The system uses a deep learning model to identify diseases in crops from uploaded images. Features include a multilingual user interface, audio output for accessibility, and an integrated chatbot for assistance.',
       githubLink: 'https://github.com/RamaduguSaikiran/Crop-Disease-Detection',
       color: 'from-green-500 to-emerald-600'
