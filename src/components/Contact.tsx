@@ -277,7 +277,7 @@ const Contact = () => {
                         value={formData.from_name}
                         onChange={handleChange}
                         required
-                        placeholder="John Doe"
+                        placeholder="Enter Your Name"
                         className={`bg-gray-50 dark:bg-gray-700 border-gray-200 dark:border-gray-600 focus:ring-blue-500 rounded-lg ${errors.from_name ? 'border-red-500 dark:border-red-500' : ''}`}
                       />
                       {errors.from_name && <p className="text-red-500 text-xs mt-1">{errors.from_name}</p>}
@@ -294,7 +294,7 @@ const Contact = () => {
                         value={formData.reply_to}
                         onChange={handleChange}
                         required
-                        placeholder="john@example.com"
+                        placeholder="Enter Your Mail Address"
                         className={`bg-gray-50 dark:bg-gray-700 border-gray-200 dark:border-gray-600 focus:ring-blue-500 rounded-lg ${errors.reply_to ? 'border-red-500 dark:border-red-500' : ''}`}
                       />
                       {errors.reply_to && <p className="text-red-500 text-xs mt-1">{errors.reply_to}</p>}
